@@ -1,0 +1,19 @@
+[gui]
+[user]
+	email = jinerben@gmail.com
+	name = Ben Chen
+[gui]
+	recentrepo = G:/Code/threejs
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[http]
+	proxy = http-proxy.psi.de:81
+[alias]
+	st = status
+	last = log -1 HEAD
+	last2 = log -2
+	plog = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	flog = log -p -2
