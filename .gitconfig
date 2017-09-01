@@ -18,6 +18,7 @@
 	b = branch
 	c = commit
 	co = checkout
+	pushall = push --mirror
 
 	ci = commit --interactive
 
