@@ -1,9 +1,6 @@
-[gui]
 [user]
 	email = jinerben@gmail.com
 	name = Ben Chen
-[gui]
-	recentrepo = G:/Code/threejs
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
