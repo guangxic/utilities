@@ -23,4 +23,5 @@
 	ci = commit --interactive
 
 	branches = branch -a
-
+[http]
+	proxy = http://http-proxy.psi.de:81
